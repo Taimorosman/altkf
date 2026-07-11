@@ -1,0 +1,229 @@
+'use client';
+
+import React, { useRef, useState, useEffect } from 'react';
+import { motion, useInView } from 'framer-motion';
+import { useTranslations, useLocale } from 'next-intl';
+import Image from 'next/image';
+import { Link } from '@/i18n/navigation';
+import { ShieldCheck, Users, BadgeDollarSign } from 'lucide-react';
+
+/* ------------------------------------------------------------------ */
+/*  Animation variants                                                 */
+/* ------------------------------------------------------------------ */
+
+const containerVariants = {
+  hidden: {},
+  visible: {
+    transition: { staggerChildren: 0.15, delayChildren: 0.2 },
+  },
+};
+
+const slideUp = {
+  hidden: { opacity: 0, y: 40 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] as const },
+  },
+};
+
+
+
+/* ------------------------------------------------------------------ */
+/*  Feature Cards                                                      */
+/* ------------------------------------------------------------------ */
+
+function FeatureCards() {
+  const locale = useLocale();
+  const isRTL = locale === 'ar';
+
+  const features = [
+    {
+      id: 1,
+      icon: Users,
+      title: isRTL ? 'تصميم وتركيب التكييف المركزي' : 'Commercial Central AC',
+      desc: isRTL ? 'تصميم وتنفيذ أنظمة التكييف المركزي وVRF للمجمعات والأبراج التجارية والمنشآت الصناعية.' : 'Precision design and installation of Central AC and VRF systems for commercial buildings.',
+      image: '/images/projects/real_residential_ac_1779986080889.png',
+    },
+    {
+      id: 2,
+      icon: ShieldCheck,
+      title: isRTL ? 'مقاول معتمد ومطابق للمواصفات SASO' : 'Certified Quality & SASO Units',
+      desc: isRTL ? 'توريد مباشر من أكبر العلامات العالمية بضمان المصنع ومطابقة المواصفات السعودية القياسية.' : 'Authorized supplier of top global brands fully compliant with Saudi SASO engineering standards.',
+      image: '/images/projects/real_commercial_ac_1779986043958.png',
+    },
+    {
+      id: 3,
+      icon: BadgeDollarSign,
+      title: isRTL ? 'دكت تكييف وشيلر للمشاريع الضخمة' : 'Chillers & Duct Fabrication',
+      desc: isRTL ? 'تفصيل وتمديد مجاري الهواء المجلفنة وتركيب محطات الشيلر للمستشفيات والمراكز التجارية.' : 'High-capacity chiller plant installation and galvanized duct fabrication for large-scale facilities.',
+      image: '/images/projects/professional_ac_maintenance_1779926297502.png',
+    }
+  ];
+
+  return (
+    <section className="relative -mt-16 sm:-mt-24 z-20 w-full max-w-[90rem] mx-auto px-4 lg:px-8 mb-16">
+      <h2 className="sr-only">{isRTL ? "مزايا وخدمات مؤسسة أعمال التكييف للمقاولات" : "Al-Takeef HVAC Contracting Key Advantages"}</h2>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-6">
+        {features.map((f, idx) => {
+          const Icon = f.icon;
+          return (
+            <motion.div
+              key={f.id}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: idx * 0.15 + 0.4 }}
+              className="bg-[#111827]/90 backdrop-blur-sm border border-white/10 rounded-[5%_0%_5%_0%] overflow-hidden shadow-2xl flex flex-col group hover:-translate-y-1 hover:border-[#00E5FF]/40 transition-all h-[360px]"
+            >
+              {/* Image Section (70% Height) */}
+              <div className="relative w-full h-[70%] bg-[#0B1120] overflow-hidden shrink-0">
+                <Image 
+                  src={f.image} 
+                  alt={isRTL ? `${f.title} بالرياض - مؤسسة أعمال التكييف` : `${f.title} in Riyadh - Al-Takeef`} 
+                  fill 
+                  className="object-cover opacity-80 group-hover:opacity-100 transition-all duration-500 group-hover:scale-105" 
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 300px"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#111827] via-transparent to-transparent z-10"></div>
+                
+                {/* Floating Icon inside image area */}
+                <div className="absolute bottom-4 left-4 z-20">
+                  <div className="w-12 h-12 rounded-full bg-[#00E5FF]/10 flex items-center justify-center text-[#00E5FF] group-hover:bg-[#00E5FF] group-hover:text-[#0B1120] transition-colors">
+                    <Icon className="w-6 h-6" />
+                  </div>
+                </div>
+              </div>
+
+              {/* Text Section (30% Height) */}
+              <div className="p-5 flex flex-col flex-grow bg-[#111827] justify-center relative z-20">
+                <h3 className="text-base font-bold text-white mb-1 group-hover:text-[#00E5FF] transition-colors line-clamp-1">{f.title}</h3>
+                <p className="text-xs text-[#94A3B8] leading-relaxed line-clamp-2">{f.desc}</p>
+              </div>
+            </motion.div>
+          );
+        })}
+      </div>
+    </section>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/*  Hero Section                                                       */
+/* ------------------------------------------------------------------ */
+
+export default function Hero() {
+  const t = useTranslations('hero');
+  const locale = useLocale();
+  const isRTL = locale === 'ar';
+  
+  const ref = useRef<HTMLElement>(null);
+  const isInView = useInView(ref, { once: true, amount: 0.1 });
+
+  // Only load background video on desktop viewports to optimize mobile LCP bandwidth
+  const [showVideo, setShowVideo] = useState(false);
+
+  useEffect(() => {
+    if (window.innerWidth >= 1024) {
+      setShowVideo(true);
+    }
+  }, []);
+
+  return (
+    <>
+      <section
+        ref={ref}
+        className="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-36 sm:pt-40 lg:pt-48 pb-32 sm:pb-40 group"
+      >
+        {/* Full Screen Background: Video on Desktop, Premium Image on Mobile */}
+        <div className="absolute inset-0 w-full h-full overflow-hidden bg-[#0D1627]">
+          {/* Background Image: Always rendered as base/fallback layer */}
+          <Image
+            src="/images/hero-fallback.png"
+            alt="Al-Takeef HVAC systems villa background"
+            fill
+            priority
+            className="object-cover opacity-30 group-hover:opacity-60 transition-opacity duration-700"
+            sizes="100vw"
+          />
+
+          {showVideo && (
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              aria-hidden="true"
+              tabIndex={-1}
+              className="absolute w-full h-full object-cover hidden lg:block opacity-30 group-hover:opacity-60 transition-opacity duration-700"
+            >
+              <source src="/hero-bg.mp4" type="video/mp4" />
+            </video>
+          )}
+          {/* Flat 85% Overlay for Readability and Premium Styling */}
+          <div className="absolute inset-0 bg-[#0D1627]/85"></div>
+          <div className="absolute inset-0 bg-[#00E5FF]/5 mix-blend-overlay pointer-events-none"></div>
+
+          {/* Decorative Glowing Elements */}
+          <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[#00E5FF]/10 rounded-full blur-[120px] pointer-events-none"></div>
+          <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-[120px] pointer-events-none"></div>
+        </div>
+
+        {/* Center-aligned typographic content */}
+        <motion.div
+          className="relative z-10 w-full max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8"
+          variants={containerVariants}
+          initial="hidden"
+          animate={isInView ? 'visible' : 'hidden'}
+        >
+          <div className="flex flex-col items-center justify-center text-center max-w-4xl mx-auto gap-6 sm:gap-8">
+            
+            <motion.div variants={slideUp} className="flex flex-col gap-5 sm:gap-6">
+              {/* Main H1 Headline */}
+              <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-white leading-normal tracking-tight drop-shadow-lg max-w-4xl mx-auto">
+                {isRTL 
+                  ? 'مقاول تكييف مركزي معتمد للمشاريع التجارية والصناعية بالرياض' 
+                  : 'Certified Commercial HVAC Contractor for Industrial & Project-Scale Installations in Riyadh'}
+              </h1>
+              
+              {/* H2 Sub-headline */}
+              <p className="text-xs sm:text-sm md:text-base text-[#94A3B8]/90 leading-relaxed max-w-2xl mx-auto">
+                {isRTL 
+                  ? 'نتخصص في توريد وتركيب أنظمة التكييف المركزي وVRF والشيلر للمجمعات التجارية والمستشفيات والأبراج الكبرى. نطاق خدماتنا: المشاريع الكبيرة فقط.'
+                  : 'Specialists in supply and installation of Central AC, VRF, and Chiller systems for commercial complexes, hospitals, and major towers. We serve large-scale projects only.'}
+              </p>
+
+              {/* Saudi SCE & SBC Trust Badges */}
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mt-3 text-[10px] sm:text-xs font-semibold text-emerald-400">
+                <span className="flex items-center gap-1.5 bg-emerald-950/60 border border-emerald-500/20 px-3 py-1.5 rounded-lg">
+                  {isRTL ? '✓ جميع مهندسينا معتمدون من الهيئة السعودية للمهندسين' : '✓ All our engineers are certified by Saudi Council of Engineers'}
+                </span>
+                <span className="flex items-center gap-1.5 bg-emerald-950/60 border border-emerald-500/20 px-3 py-1.5 rounded-lg">
+                  {isRTL ? '✓ تنفيذ كامل مطابق لمواصفات كود البناء السعودي (SBC)' : '✓ Full implementation matching the Saudi Building Code (SBC)'}
+                </span>
+              </div>
+            </motion.div>
+
+            {/* CRO High-Intent CTAs */}
+            <motion.div 
+              variants={slideUp} 
+              className="flex justify-center mt-2 w-full sm:w-auto"
+            >
+              {/* Primary Contact Link (Amber) */}
+              <Link
+                href="/contact"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl bg-[#FBBF24] text-[#121212] hover:bg-[#FBBF24]/90 px-6 py-3 text-sm font-extrabold transition-all hover:shadow-xl hover:shadow-amber-500/20 hover:-translate-y-0.5 active:scale-97 duration-200"
+              >
+                <span>{isRTL ? 'طلب عرض سعر مجاني للمشروع' : 'Get a Free Project Quote'}</span>
+              </Link>
+            </motion.div>
+
+          </div>
+        </motion.div>
+      </section>
+
+      {/* Feature Cards Overlapping */}
+      <FeatureCards />
+    </>
+  );
+}
