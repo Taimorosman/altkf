@@ -28,9 +28,9 @@ export default function MobileCTAOverlay() {
         <Phone className="w-5 h-5 md:w-6 md:h-6 fill-current shrink-0" />
         
         {/* Tooltip Label with Little Arrow */}
-        <span className="absolute bottom-16 md:bottom-20 left-1/2 -translate-x-1/2 whitespace-nowrap bg-[#FBBF24] text-[#121212] text-[9px] md:text-[10px] font-black py-1.5 px-3 rounded-lg shadow-lg border border-[#FBBF24]/20 animate-pulse pointer-events-none">
-          {isRTL ? 'اتصل بنا' : 'Call Us'}
-          <span className="absolute bottom-[-4px] left-1/2 -translate-x-1/2 w-2 h-2 bg-[#FBBF24] rotate-45"></span>
+        <span className="absolute bottom-16 md:bottom-20 left-0 whitespace-nowrap bg-[#FBBF24] text-[#121212] text-[9px] md:text-[10px] font-black py-1.5 px-3 rounded-lg shadow-lg border border-[#FBBF24]/20 animate-pulse pointer-events-none">
+          {isRTL ? 'تواصل معنا' : 'Contact Us'}
+          <span className="absolute bottom-[-4px] left-5 md:left-6 w-2 h-2 bg-[#FBBF24] rotate-45"></span>
         </span>
       </a>
 
@@ -56,9 +56,9 @@ export default function MobileCTAOverlay() {
         </svg>
         
         {/* Tooltip Label with Little Arrow */}
-        <span className="absolute bottom-16 md:bottom-20 left-1/2 -translate-x-1/2 whitespace-nowrap bg-[#25D366] text-white text-[9px] md:text-[10px] font-black py-1.5 px-3 rounded-lg shadow-lg border border-[#25D366]/20 animate-bounce pointer-events-none">
-          {isRTL ? 'عرض سعر مجاني 100%' : '100% Free Quotation'}
-          <span className="absolute bottom-[-4px] left-1/2 -translate-x-1/2 w-2 h-2 bg-[#25D366] rotate-45"></span>
+        <span className="absolute bottom-16 md:bottom-20 right-0 whitespace-nowrap bg-[#25D366] text-white text-[9px] md:text-[10px] font-black py-1.5 px-3 rounded-lg shadow-lg border border-[#25D366]/20 animate-bounce pointer-events-none">
+          {isRTL ? 'عرض سعر مجاني 100%' : 'Get 100% Free Quotation'}
+          <span className="absolute bottom-[-4px] right-5 md:right-6 w-2 h-2 bg-[#25D366] rotate-45"></span>
         </span>
       </a>
     </>
