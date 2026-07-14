@@ -846,6 +846,222 @@ export const blogPosts: BlogPost[] = [
     `,
     keywordsAr: ['عقود صيانة التكييف الرياض', 'فني مكيفات الرياض', 'تصليح مكيفات الرياض', 'صيانة تكييف شركات الرياض'],
     keywordsEn: ['AC maintenance contract Riyadh', 'HVAC repair Riyadh', 'commercial AC service', 'Riyadh AC technician']
+  },
+  {
+    id: 21,
+    slug: 'duct-fabrication-air-conditioning-riyadh',
+    category: 'tech',
+    categoryAr: 'تقنيات التكييف',
+    categoryEn: 'HVAC Tech',
+    date: '2026-07-15',
+    dateAr: '١٥ يوليو ٢٠٢٦',
+    readTimeAr: '١٠ دقائق قراءة',
+    readTimeEn: '10 min read',
+    image: '/images/services/ventilation-v2.png',
+    authorAr: 'م. أحمد الحربي | مؤسسة أعمال التكييف',
+    authorEn: 'Eng. Ahmed Al-Harbi | Al-Takeef Est.',
+    titleAr: 'دليل شامل حول صناعة الدكت (مجاري الهواء): الجودة والكفاءة في أنظمة التكييف المركزي بالرياض | أعمال التكييف',
+    titleEn: 'Complete Guide to Air Duct Fabrication: Quality & Efficiency in Central AC Systems in Riyadh | Best Air Conditioning Company',
+    summaryAr: 'دليل متكامل من مؤسسة أعمال التكييف بالرياض حول صناعة مجاري الهواء (الدكت) لأنظمة التكييف المركزي والمخفي، يشمل مراحل التصنيع، أنواع العزل، ومعايير SMACNA لضمان أعلى كفاءة تبريد وتوفير في استهلاك الطاقة. أفضل شركة تكييف بالرياض.',
+    summaryEn: 'A comprehensive guide from Al-Takeef, the top air conditioning company in Riyadh, on air duct fabrication for central and concealed AC systems. Covers manufacturing stages, insulation types, and SMACNA standards for maximum cooling efficiency and energy savings. Best HVAC contractor in Riyadh.',
+    contentAr: `
+      <h2>صناعة الدكت ومجاري الهواء: لماذا هي العمود الفقري لأي نظام تكييف مركزي ناجح؟</h2>
+      <p>في ظل الأجواء المناخية الحارة والمتقلبة التي تشهدها <strong>المملكة العربية السعودية</strong> ومدينة <strong>الرياض</strong> تحديداً، لم يعد نظام التكييف مجرد وسيلة للرفاهية، بل أصبح عصب الحياة في المنشآت السكنية، التجارية، والصناعية. وإذا كان "الكمبروسر" هو قلب نظام التكييف، فإن <strong>مجاري الهواء (الدكت - Air Ducts)</strong> هي الشرايين التي تضمن تدفق الهواء النقي والبارد إلى كل زاوية في المبنى.</p>
+      <p>في <strong>مؤسسة أعمال التكييف</strong> — <strong>أفضل شركة تكييف مركزي بالرياض</strong> وأفضل <strong>مقاول تكييف بالرياض</strong> — نسلط الضوء في هذا الدليل الشامل على كواليس <strong>صناعة الدكت</strong>، وأهميتها في كفاءة التبريد، وكيف تساهم جودة التصنيع في خفض تكاليف الطاقة لمشاريعكم.</p>
+
+      <h3>ما هي مجاري الهواء (الدكت) ولماذا هي حاسمة في أنظمة التكييف؟</h3>
+      <p><strong>مجاري الهواء</strong> هي شبكة من الأنابيب والمسارات المعدنية المصممة بدقة هندسية فائقة لتوزيع الهواء المعالج (المبرد أو المسخن) من وحدات <strong>التكييف المركزي</strong> أو <strong>التكييف المخفي (كونسيلد)</strong> إلى داخل المبنى، وإعادة تدوير الهواء غير المرغوب فيه. في <strong>مؤسسة أعمال التكييف بالرياض</strong>، ندرك أن اختيار <strong>دكت عالي الجودة</strong> من <strong>مصنع دكت تكييف معتمد</strong> يضمن:</p>
+      <ul>
+        <li><strong>توزيعاً متوازناً للحرارة:</strong> منع وجود بقع حارة أو باردة داخل المساحة الواحدة — وهذا ما يميز <strong>أفضل شركة تكييف في الرياض</strong> عن غيرها.</li>
+        <li><strong>كفاءة استهلاك الطاقة:</strong> تقليل هدر الهواء البارد يعني عمل نظام <strong>التكييف المركزي</strong> بأريحية دون إجهاد، مما يخفض <strong>فاتورة الكهرباء</strong> بنسبة تصل إلى 25%.</li>
+        <li><strong>الهدوء التام:</strong> التصميم والتصنيع السليم من <strong>أفضل مقاول تكييف بالرياض</strong> يمنعان حدوث اهتزازات أو ضوضاء مزعجة أثناء تدفق الهواء.</li>
+        <li><strong>جودة الهواء الداخلي:</strong> <strong>دكت التكييف المعزول</strong> يمنع تلوث الهواء ويحافظ على بيئة صحية ونقية في <strong>المنشآت التجارية والسكنية بالرياض</strong>.</li>
+      </ul>
+
+      <h3>مراحل صناعة الدكت في مصانع أعمال التكييف الحديثة</h3>
+      <p>تمر عملية <strong>تصنيع مجاري الهواء</strong> في <strong>مصنع أعمال التكييف</strong> بالرياض بمراحل هندسية دقيقة تعتمد على أحدث التكنولوجيا لضمان أعلى معايير الجودة:</p>
+
+      <h3>١. الهندسة وحساب الأحمال (Engineering & Sizing)</h3>
+      <p>قبل البدء في قص الصاج، يقوم مهندسو <strong>مؤسسة أعمال التكييف</strong> — <strong>أفضل مقاول HVAC بالرياض</strong> — بدراسة المخططات الهندسية بدقة متناهية وحساب تدفق الهواء المطلوب بوحدة (CFM). يتم تحديد أبعاد <strong>الدكت</strong> (الارتفاع والعرض) بناءً على سرعة الهواء والضغط الاستاتيكي لضمان تدفق سلس دون مقاومة. هذه الخبرة الهندسية هي ما يجعلنا <strong>الشركة الأولى في التكييف المركزي بالرياض</strong>.</p>
+
+      <h3>٢. اختيار المواد الخام (Material Selection)</h3>
+      <p>في <strong>مصنع دكت التكييف</strong> التابع لـ <strong>أعمال التكييف</strong>، تُصنع <strong>مجاري الهواء</strong> من <strong>الصاج المجلفن (Galvanized Steel)</strong> المقاوم للصدأ والتآكل. تتعدد سماكات الصاج (مثل Gauge 22, 24, 26) بناءً على حجم <strong>الدكت</strong> ومكانه (داخلي أو خارجي) وضغط الهواء المار فيه. كما نستخدم مواد متقدمة في بعض التطبيقات مثل <strong>دكت الفينوليك (Pre-insulated Ducts)</strong> للمشاريع التي تتطلب عزلاً فائقاً.</p>
+
+      <h3>٣. التصنيع والقص الآلي بتقنية CNC Plasma</h3>
+      <p>في <strong>مصنع أعمال التكييف المتقدم</strong>، نعتمد على ماكينات <strong>البلازما CNC</strong> لقص الصاج. تضمن هذه التقنية المؤتمتة:</p>
+      <ul>
+        <li><strong>دقة متناهية في الأبعاد</strong> — مطابقة 100% للمخططات الهندسية.</li>
+        <li><strong>سرعة فائقة في الإنتاج</strong> — تلبية احتياجات <strong>المشاريع التجارية والصناعية الكبرى بالرياض</strong>.</li>
+        <li><strong>تقليل نسبة الهدر</strong> في المواد الخام إلى الحد الأدنى.</li>
+        <li><strong>تشكيل القطع المعقدة</strong> مثل المشتركات (Transitions)، الأكواع (Elbows)، والتفريعات بكفاءة عالية.</li>
+      </ul>
+      <p>هذا المستوى من التقنية هو ما يجعل <strong>مؤسسة أعمال التكييف</strong> تتصدر قائمة <strong>أفضل شركات التكييف المركزي في الرياض</strong> و<strong>أفضل مقاول تكييف في السعودية</strong>.</p>
+
+      <h3>٤. التشكيل والجمع (Folding & Seaming)</h3>
+      <p>بعد القص، يتم ثني الصاج وتشكيله في <strong>مصنع أعمال التكييف</strong> لينتج المقطع المربع أو المستطيل، ثم تُغلق الفواصل بإحكام باستخدام طرق تعشيق متطورة (Pittsburgh Lock / TDF) تمنع أي تسريب للهواء مستقبلاً — وهذا معيار أساسي لدى <strong>أفضل شركة تكييف مركزي بالرياض</strong>.</p>
+
+      <h3>أنواع العزل المستخدم في مجاري الهواء | أعمال التكييف</h3>
+      <p>لا تكتمل <strong>صناعة الدكت</strong> في <strong>مؤسسة أعمال التكييف</strong> بدون عزل حراري وصوتي احترافي، وينقسم العزل إلى نوعين رئيسيين:</p>
+      <ul>
+        <li><strong>العزل الداخلي (Acoustic Lining):</strong> يوضع داخل <strong>الدكت</strong> في الأجزاء القريبة من الماكينة لامتصاص صوت تدفق الهواء وصوت المروحة، مما يوفر بيئة هادئة تماماً في <strong>المكاتب والمنشآت التجارية</strong>.</li>
+        <li><strong>العزل الخارجي (Thermal Insulation):</strong> يغلف <strong>مجاري الهواء</strong> من الخارج (غالباً باستخدام <strong>الصوف الزجاجي - Fiberglass</strong>) لمنع التكثف وحماية الهواء البارد من التأثر بحرارة الفراغات المعمارية أو الأسقف المستعارة.</li>
+      </ul>
+
+      <h3>معايير جودة الدكت: لماذا أعمال التكييف هي الخيار الأفضل بالرياض؟</h3>
+      <p>عند البحث عن <strong>مقاول تكييف مركزي بالرياض</strong> أو <strong>شركة تكييف في الرياض</strong> لتوريد <strong>مجاري الهواء</strong> لمشروعك، يجب التأكد من التزام المصنع بالمعايير العالمية والمحلية. في <strong>مؤسسة أعمال التكييف</strong> نلتزم بـ:</p>
+      <ul>
+        <li><strong>مطابقة مواصفات SMACNA:</strong> الجمعية العالمية لمقاولي الصفائح المعدنية وتكييف الهواء، والتي تحدد معايير سماكة الصاج وطرق التثبيت والربط.</li>
+        <li><strong>التصنيع الآلي الكامل:</strong> خطوط إنتاج <strong>مصنع أعمال التكييف</strong> تعمل برمجياً لضمان قطع مطابقة للمخططات بنسبة 100% دون أخطاء بشرية.</li>
+        <li><strong>سرعة التوريد:</strong> القدرة الإنتاجية العالية لـ <strong>مصنعنا بالرياض</strong> تعني الالتزام بالجداول الزمنية للمشاريع وتجنب غرامات التأخير.</li>
+        <li><strong>ضمان الجودة:</strong> فحص كل قطعة دكت قبل الشحن لضمان خلوها من العيوب — وهذا ما يميز <strong>أفضل مقاول تكييف في الرياض</strong>.</li>
+      </ul>
+
+      <h3>لماذا تختار مؤسسة أعمال التكييف لمشروعك في الرياض؟</h3>
+      <p><strong>مؤسسة أعمال التكييف</strong> هي <strong>أفضل شركة تكييف مركزي بالرياض</strong> و<strong>أفضل مقاول HVAC في المملكة العربية السعودية</strong>. نقدم حلولاً متكاملة تشمل:</p>
+      <ul>
+        <li><strong>تصميم وتصنيع الدكت</strong> بأحدث ماكينات CNC Plasma في مصنعنا بالرياض.</li>
+        <li><strong>توريد وتركيب أنظمة التكييف المركزي</strong> للفلل، القصور، المجمعات التجارية، والمصانع.</li>
+        <li><strong>تمديد دكت التكييف المركزي والمخفي (كونسيلد)</strong> بأعلى معايير العزل والجودة.</li>
+        <li><strong>صيانة وعقود تشغيل سنوية</strong> لأنظمة التكييف VRF والشيلر والتكييف المركزي.</li>
+        <li><strong>خبرة تفوق 10 سنوات</strong> في سوق التكييف بالرياض والمنطقة الوسطى.</li>
+        <li><strong>أسعار تنافسية</strong> لا تُضاهى مع <strong>أفضل جودة تكييف في الرياض</strong>.</li>
+      </ul>
+
+      <h3>خدماتنا في مجال التكييف بالرياض | أعمال التكييف</h3>
+      <p>بالإضافة إلى <strong>صناعة الدكت</strong>، تقدم <strong>مؤسسة أعمال التكييف</strong> مجموعة شاملة من خدمات التكييف والتبريد في الرياض:</p>
+      <ul>
+        <li><strong>تركيب تكييف مركزي بالرياض</strong> — تصميم هندسي شامل وتوريد وتركيب.</li>
+        <li><strong>تركيب تكييف VRF بالرياض</strong> — أنظمة موفرة للطاقة بتحكم مستقل لكل منطقة.</li>
+        <li><strong>تركيب تكييف مخفي كونسيلد بالرياض</strong> — حلول أنيقة للمكاتب والفلل الفاخرة.</li>
+        <li><strong>تكييف شيلر ومبردات مياه بالرياض</strong> — للمصانع والمستشفيات والمجمعات الكبرى.</li>
+        <li><strong>أنظمة تهوية ميكانيكية وسحب الدخان</strong> — مصممة بمواصفات هندسية قياسية.</li>
+        <li><strong>صيانة تكييف بالرياض</strong> — عقود صيانة سنوية مع استجابة طوارئ فورية.</li>
+      </ul>
+
+      <h3>الخلاصة: الاستثمار في الدكت عالي الجودة = نظام تكييف ناجح</h3>
+      <p>إن الاستثمار في <strong>مجاري هواء (دكت)</strong> مصنعة باحترافية وبأحدث التقنيات هو الأساس لنجاح أي نظام <strong>تكييف مركزي</strong>. في <strong>مصنع أعمال التكييف بالرياض</strong>، ندمج بين الخبرة الهندسية وأحدث خطوط الإنتاج المؤتمتة لنقدم لعملائنا حلولاً تدوم طويلاً وتضمن أعلى كفاءة تبريد لمشاريعهم السكنية والصناعية.</p>
+      <p><strong>هل تبحث عن أفضل شركة تكييف بالرياض لتفصيل دكت عالي الجودة لمشروعك القادم؟</strong> تواصل مع <strong>مؤسسة أعمال التكييف</strong> اليوم على الرقم <strong>0552239595</strong> للحصول على استشارة هندسية مجانية وعرض أسعار مخصص يلبي تطلعاتك. نحن <strong>أفضل مقاول تكييف مركزي بالرياض</strong> — <strong>الشركة رقم 1 في التكييف بالسعودية</strong>.</p>
+
+      <h3>الكلمات المفتاحية المستهدفة | أعمال التكييف الرياض</h3>
+      <p>تم تحسين هذا المقال لمحركات البحث باستخدام أهم الكلمات المفتاحية التي يبحث عنها العملاء في السعودية مثل: <em>أعمال التكييف</em>، <em>شركة تكييف بالرياض</em>، <em>مقاول تكييف مركزي الرياض</em>، <em>أفضل شركة تكييف في الرياض</em>، <em>مصنع دكت تكييف</em>، <em>تمديد دكت التكييف المركزي</em>، <em>تركيب تكييف مركزي بالرياض</em>، <em>أفضل مقاول HVAC بالرياض</em>، <em>شركة تكييف تجاري الرياض</em>، <em>أرخص أسعار تكييف بالرياض</em>، <em>التكييف</em>.</p>
+    `,
+    contentEn: `
+      <h2>Air Duct Fabrication: The Backbone of Every Successful Central AC System in Riyadh</h2>
+      <p>In the extreme climate of <strong>Riyadh, Saudi Arabia</strong>, where temperatures regularly exceed 50°C, air conditioning is not a luxury — it is an absolute necessity for residential, commercial, and industrial facilities. If the compressor is the heart of an AC system, then <strong>air ducts</strong> are the arteries that ensure clean, cool air flows to every corner of the building.</p>
+      <p>At <strong>Al-Takeef Contracting Establishment (أعمال التكييف)</strong> — the <strong>best air conditioning company in Riyadh</strong> and the <strong>top HVAC contractor in Saudi Arabia</strong> — we present this comprehensive guide on <strong>air duct fabrication</strong>, its critical role in cooling efficiency, and how our manufacturing excellence reduces your energy costs significantly.</p>
+
+      <h3>What Are Air Ducts and Why Are They Critical for AC Systems?</h3>
+      <p><strong>Air ducts (مجاري الهواء)</strong> are a network of precisely engineered metal channels designed to distribute conditioned air (cooled or heated) from <strong>central air conditioning</strong> or <strong>concealed duct split AC</strong> units throughout a building, and to return unwanted air back to the system. At <strong>Al-Takeef — the No.1 air conditioning company in Riyadh</strong> — choosing <strong>high-quality duct fabrication</strong> ensures:</p>
+      <ul>
+        <li><strong>Balanced Temperature Distribution:</strong> Eliminating hot and cold spots within the same space — a hallmark of the <strong>best HVAC company in Riyadh</strong>.</li>
+        <li><strong>Energy Efficiency:</strong> Minimizing cool air loss means your <strong>central AC system</strong> operates without strain, reducing <strong>electricity bills by up to 25%</strong>.</li>
+        <li><strong>Silent Operation:</strong> Proper engineering and fabrication by the <strong>best air conditioning contractor in Riyadh</strong> prevents vibrations and noise during airflow.</li>
+        <li><strong>Indoor Air Quality:</strong> Properly <strong>insulated AC ductwork</strong> prevents contamination and maintains a healthy, clean environment in your <strong>Riyadh commercial or residential facility</strong>.</li>
+      </ul>
+
+      <h3>Stages of Air Duct Manufacturing at Al-Takeef's Advanced Factory</h3>
+      <p>The <strong>duct fabrication process</strong> at <strong>Al-Takeef's Riyadh factory</strong> follows precise engineering stages using the latest technology to guarantee the highest quality standards:</p>
+
+      <h3>1. Engineering & Load Calculations</h3>
+      <p>Before any sheet metal is cut, <strong>Al-Takeef's HVAC engineers</strong> — the <strong>best HVAC engineering team in Riyadh</strong> — meticulously study the architectural drawings and calculate the required airflow in CFM (Cubic Feet per Minute). Duct dimensions (height and width) are determined based on air velocity and static pressure to ensure smooth, resistance-free airflow. This engineering expertise is what makes us the <strong>top air conditioning company in Riyadh</strong> and the <strong>best HVAC contractor in Saudi Arabia</strong>.</p>
+
+      <h3>2. Raw Material Selection</h3>
+      <p>At <strong>Al-Takeef's duct fabrication facility</strong>, air ducts are manufactured from <strong>galvanized steel</strong> that resists rust and corrosion. Sheet metal thickness varies (Gauge 22, 24, 26) based on duct size, location (indoor vs outdoor), and air pressure requirements. For specialized applications, we also use <strong>pre-insulated phenolic ducts</strong> — a premium solution offered by the <strong>best air conditioning company in Riyadh</strong>.</p>
+
+      <h3>3. CNC Plasma Cutting — Automated Precision</h3>
+      <p>In our <strong>advanced manufacturing facility in Riyadh</strong>, we rely on <strong>CNC Plasma cutting machines</strong> for sheet metal cutting. This automated technology delivers:</p>
+      <ul>
+        <li><strong>Pinpoint Dimensional Accuracy</strong> — 100% blueprint compliance.</li>
+        <li><strong>High-Speed Production</strong> — meeting the demanding timelines of <strong>large commercial and industrial projects in Riyadh</strong>.</li>
+        <li><strong>Minimal Material Waste</strong> — cost-effective manufacturing.</li>
+        <li><strong>Complex Component Fabrication</strong> — transitions, elbows, and branch-offs with unmatched precision.</li>
+      </ul>
+      <p>This level of manufacturing technology is why <strong>Al-Takeef</strong> is recognized as the <strong>best air conditioning company in Riyadh</strong>, the <strong>top HVAC contractor in Saudi Arabia</strong>, and the <strong>No.1 duct fabrication factory in the Kingdom</strong>.</p>
+
+      <h3>4. Folding & Seaming</h3>
+      <p>After cutting, the sheet metal is folded and formed at <strong>Al-Takeef's factory</strong> to produce square or rectangular cross-sections. Joints are sealed using advanced interlocking methods (Pittsburgh Lock / TDF) that prevent any future air leakage — a critical quality standard upheld by the <strong>best HVAC contractor in Riyadh</strong>.</p>
+
+      <h3>Types of Duct Insulation | Al-Takeef HVAC Riyadh</h3>
+      <p><strong>Air duct fabrication</strong> at <strong>Al-Takeef</strong> is never complete without professional thermal and acoustic insulation. Our insulation solutions include:</p>
+      <ul>
+        <li><strong>Internal Acoustic Lining:</strong> Installed inside the duct near the AHU (Air Handling Unit) to absorb fan noise and airflow turbulence, creating a whisper-quiet environment for <strong>offices and commercial spaces in Riyadh</strong>.</li>
+        <li><strong>External Thermal Insulation:</strong> Wrapping the duct exterior (typically with <strong>fiberglass insulation</strong>) to prevent condensation and protect conditioned air from ambient heat in ceiling voids and architectural spaces.</li>
+      </ul>
+
+      <h3>Duct Quality Standards: Why Choose Al-Takeef in Riyadh?</h3>
+      <p>When searching for an <strong>air conditioning company in Riyadh</strong>, a <strong>central AC contractor in Riyadh</strong>, or the <strong>best HVAC company in Saudi Arabia</strong>, you need a manufacturer that meets international and local standards. At <strong>Al-Takeef</strong>, we guarantee:</p>
+      <ul>
+        <li><strong>Full SMACNA Compliance:</strong> Adhering to the Sheet Metal and Air Conditioning Contractors' National Association standards for gauge thickness, joint types, and support methods.</li>
+        <li><strong>Fully Automated Production:</strong> Our <strong>Riyadh factory</strong> runs on programmable CNC lines, ensuring 100% blueprint accuracy with zero human error.</li>
+        <li><strong>Fast Delivery:</strong> Our high production capacity means we meet project deadlines — no delays, no penalties.</li>
+        <li><strong>Quality Assurance:</strong> Every duct piece is inspected before shipping — this is what distinguishes the <strong>best air conditioning contractor in Riyadh</strong>.</li>
+      </ul>
+
+      <h3>Why Al-Takeef is the Best Air Conditioning Company in Riyadh</h3>
+      <p><strong>Al-Takeef (مؤسسة أعمال التكييف)</strong> is the <strong>top-rated HVAC contractor in Riyadh</strong> and the <strong>No.1 air conditioning company in Saudi Arabia</strong>. We offer comprehensive solutions including:</p>
+      <ul>
+        <li><strong>Duct Design & Fabrication</strong> using state-of-the-art CNC Plasma machines at our Riyadh factory.</li>
+        <li><strong>Central AC Supply & Installation</strong> for villas, palaces, commercial complexes, and factories.</li>
+        <li><strong>Concealed Duct Split AC Installation</strong> with premium insulation and engineering standards.</li>
+        <li><strong>VRF System Installation in Riyadh</strong> — energy-efficient zone cooling for modern buildings.</li>
+        <li><strong>Chiller & Chilled Water Systems</strong> for hospitals, factories, and mega commercial projects.</li>
+        <li><strong>Mechanical Ventilation & Smoke Exhaust Systems</strong> engineered to code.</li>
+        <li><strong>Annual AC Maintenance Contracts</strong> with 24/7 emergency response.</li>
+        <li><strong>Over 10 Years of Experience</strong> serving Riyadh and the Central Region.</li>
+        <li><strong>Best Prices</strong> — competitive pricing with <strong>unmatched quality</strong> in Riyadh.</li>
+      </ul>
+
+      <h3>Conclusion: Invest in Quality Ductwork = A Successful AC System</h3>
+      <p>Investing in professionally fabricated <strong>air ducts</strong> using the latest manufacturing technology is the foundation of every successful <strong>central air conditioning system</strong>. At <strong>Al-Takeef's Riyadh factory</strong>, we combine engineering expertise with the most advanced automated production lines to deliver long-lasting solutions that guarantee maximum cooling efficiency for residential and industrial projects.</p>
+      <p><strong>Looking for the best air conditioning company in Riyadh for your next project?</strong> Contact <strong>Al-Takeef (أعمال التكييف)</strong> today at <strong>+966 552 239 595</strong> for a free engineering consultation and a customized quotation. We are the <strong>No.1 HVAC contractor in Riyadh</strong> — the <strong>top air conditioning company in Saudi Arabia</strong> with the <strong>best prices</strong> in the market.</p>
+
+      <h3>Targeted SEO Keywords | Al-Takeef Riyadh</h3>
+      <p>This article has been optimized for the most searched HVAC keywords in Saudi Arabia, including: <em>air conditioning company in Riyadh</em>, <em>best air conditioning company in Riyadh</em>, <em>top HVAC contractor Riyadh</em>, <em>best HVAC company in Saudi Arabia</em>, <em>No.1 air conditioning company Riyadh</em>, <em>central AC contractor Riyadh</em>, <em>air duct fabrication Riyadh</em>, <em>duct manufacturing Saudi Arabia</em>, <em>AC duct installation Riyadh</em>, <em>best price air conditioning Riyadh</em>, <em>commercial HVAC Riyadh</em>, <em>Al-Takeef HVAC</em>.</p>
+    `,
+    keywordsAr: [
+      'أعمال التكييف',
+      'التكييف',
+      'شركة تكييف بالرياض',
+      'أفضل شركة تكييف بالرياض',
+      'مقاول تكييف مركزي الرياض',
+      'أفضل مقاول تكييف بالرياض',
+      'مصنع دكت تكييف',
+      'صناعة الدكت',
+      'تمديد دكت التكييف المركزي',
+      'تركيب تكييف مركزي بالرياض',
+      'شركة تكييف تجاري الرياض',
+      'مجاري الهواء',
+      'دكت التكييف',
+      'مقاول HVAC بالرياض',
+      'أفضل شركة تكييف في السعودية',
+      'أرخص أسعار تكييف بالرياض',
+      'تكييف مركزي الرياض',
+      'شركة تكييف مخفي بالرياض',
+      'مؤسسة أعمال التكييف',
+      'أفضل مقاول تكييف في السعودية'
+    ],
+    keywordsEn: [
+      'air conditioning company in Riyadh',
+      'best air conditioning company in Riyadh',
+      'top HVAC contractor Riyadh',
+      'best HVAC company in Saudi Arabia',
+      'No.1 air conditioning company Riyadh',
+      'central AC contractor Riyadh',
+      'air duct fabrication Riyadh',
+      'duct manufacturing Saudi Arabia',
+      'AC duct installation Riyadh',
+      'best price air conditioning Riyadh',
+      'commercial HVAC Riyadh',
+      'Al-Takeef HVAC',
+      'HVAC engineering Riyadh',
+      'best AC company Riyadh',
+      'air conditioning contractor Saudi Arabia',
+      'duct fabrication factory Riyadh',
+      'central air conditioning Riyadh',
+      'concealed duct AC Riyadh',
+      'VRF installation Riyadh',
+      'cheapest air conditioning Riyadh'
+    ]
   }
 ];
 
