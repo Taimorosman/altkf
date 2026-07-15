@@ -861,9 +861,9 @@ export const blogPosts: BlogPost[] = [
     authorAr: 'م. أحمد الحربي | مؤسسة أعمال التكييف',
     authorEn: 'Eng. Ahmed Al-Harbi | Al-Takeef Est.',
     titleAr: 'دليل شامل حول صناعة الدكت (مجاري الهواء): الجودة والكفاءة في أنظمة التكييف المركزي بالرياض | أعمال التكييف',
-    titleEn: 'Complete Guide to Air Duct Fabrication: Quality & Efficiency in Central AC Systems in Riyadh | Best Air Conditioning Company',
+    titleEn: 'Complete Guide to Air Duct Fabrication: Quality & Efficiency in Central AC Systems in Riyadh | Al-Takeef',
     summaryAr: 'دليل متكامل من مؤسسة أعمال التكييف بالرياض حول صناعة مجاري الهواء (الدكت) لأنظمة التكييف المركزي والمخفي، يشمل مراحل التصنيع، أنواع العزل، ومعايير SMACNA لضمان أعلى كفاءة تبريد وتوفير في استهلاك الطاقة. أفضل شركة تكييف بالرياض.',
-    summaryEn: 'A comprehensive guide from Al-Takeef, the top air conditioning company in Riyadh, on air duct fabrication for central and concealed AC systems. Covers manufacturing stages, insulation types, and SMACNA standards for maximum cooling efficiency and energy savings. Best HVAC contractor in Riyadh.',
+    summaryEn: 'A comprehensive guide from Al-Takeef in Riyadh on air duct fabrication for central and concealed AC systems. Covers manufacturing stages, insulation types, and SMACNA standards for maximum cooling efficiency and energy savings.',
     contentAr: `
       <h2>صناعة الدكت ومجاري الهواء: لماذا هي العمود الفقري لأي نظام تكييف مركزي ناجح؟</h2>
       <p>في ظل الأجواء المناخية الحارة والمتقلبة التي تشهدها <strong>المملكة العربية السعودية</strong> ومدينة <strong>الرياض</strong> تحديداً، لم يعد نظام التكييف مجرد وسيلة للرفاهية، بل أصبح عصب الحياة في المنشآت السكنية، التجارية، والصناعية. وإذا كان "الكمبروسر" هو قلب نظام التكييف، فإن <strong>مجاري الهواء (الدكت - Air Ducts)</strong> هي الشرايين التي تضمن تدفق الهواء النقي والبارد إلى كل زاوية في المبنى.</p>
@@ -948,14 +948,14 @@ export const blogPosts: BlogPost[] = [
     contentEn: `
       <h2>Air Duct Fabrication: The Backbone of Every Successful Central AC System in Riyadh</h2>
       <p>In the extreme climate of <strong>Riyadh, Saudi Arabia</strong>, where temperatures regularly exceed 50°C, air conditioning is not a luxury — it is an absolute necessity for residential, commercial, and industrial facilities. If the compressor is the heart of an AC system, then <strong>air ducts</strong> are the arteries that ensure clean, cool air flows to every corner of the building.</p>
-      <p>At <strong>Al-Takeef Contracting Establishment (أعمال التكييف)</strong> — the <strong>best air conditioning company in Riyadh</strong> and the <strong>top HVAC contractor in Saudi Arabia</strong> — we present this comprehensive guide on <strong>air duct fabrication</strong>, its critical role in cooling efficiency, and how our manufacturing excellence reduces your energy costs significantly.</p>
+      <p>At <strong>Al-Takeef (أعمال التكييف)</strong> — Riyadh's leading HVAC contracting establishment — we present this comprehensive guide on <strong>air duct fabrication</strong>, its critical role in cooling efficiency, and how our manufacturing excellence reduces your energy costs significantly.</p>
 
       <h3>What Are Air Ducts and Why Are They Critical for AC Systems?</h3>
-      <p><strong>Air ducts (مجاري الهواء)</strong> are a network of precisely engineered metal channels designed to distribute conditioned air (cooled or heated) from <strong>central air conditioning</strong> or <strong>concealed duct split AC</strong> units throughout a building, and to return unwanted air back to the system. At <strong>Al-Takeef — the No.1 air conditioning company in Riyadh</strong> — choosing <strong>high-quality duct fabrication</strong> ensures:</p>
+      <p><strong>Air ducts (مجاري الهواء)</strong> are a network of precisely engineered metal channels designed to distribute conditioned air (cooled or heated) from <strong>central air conditioning</strong> or <strong>concealed duct split AC</strong> units throughout a building, and to return unwanted air back to the system. At <strong>Al-Takeef</strong> — Riyadh's No.1 HVAC contractor — choosing <strong>high-quality duct fabrication</strong> ensures:</p>
       <ul>
-        <li><strong>Balanced Temperature Distribution:</strong> Eliminating hot and cold spots within the same space — a hallmark of the <strong>best HVAC company in Riyadh</strong>.</li>
+        <li><strong>Balanced Temperature Distribution:</strong> Eliminating hot and cold spots within the same space — a hallmark of <strong>Al-Takeef</strong>.</li>
         <li><strong>Energy Efficiency:</strong> Minimizing cool air loss means your <strong>central AC system</strong> operates without strain, reducing <strong>electricity bills by up to 25%</strong>.</li>
-        <li><strong>Silent Operation:</strong> Proper engineering and fabrication by the <strong>best air conditioning contractor in Riyadh</strong> prevents vibrations and noise during airflow.</li>
+        <li><strong>Silent Operation:</strong> Proper engineering and fabrication by <strong>Al-Takeef</strong> prevents vibrations and noise during airflow.</li>
         <li><strong>Indoor Air Quality:</strong> Properly <strong>insulated AC ductwork</strong> prevents contamination and maintains a healthy, clean environment in your <strong>Riyadh commercial or residential facility</strong>.</li>
       </ul>
 
@@ -963,10 +963,10 @@ export const blogPosts: BlogPost[] = [
       <p>The <strong>duct fabrication process</strong> at <strong>Al-Takeef's Riyadh factory</strong> follows precise engineering stages using the latest technology to guarantee the highest quality standards:</p>
 
       <h3>1. Engineering & Load Calculations</h3>
-      <p>Before any sheet metal is cut, <strong>Al-Takeef's HVAC engineers</strong> — the <strong>best HVAC engineering team in Riyadh</strong> — meticulously study the architectural drawings and calculate the required airflow in CFM (Cubic Feet per Minute). Duct dimensions (height and width) are determined based on air velocity and static pressure to ensure smooth, resistance-free airflow. This engineering expertise is what makes us the <strong>top air conditioning company in Riyadh</strong> and the <strong>best HVAC contractor in Saudi Arabia</strong>.</p>
+      <p>Before any sheet metal is cut, <strong>Al-Takeef's HVAC engineers</strong> meticulously study the architectural drawings and calculate the required airflow in CFM (Cubic Feet per Minute). Duct dimensions (height and width) are determined based on air velocity and static pressure to ensure smooth, resistance-free airflow. This engineering expertise is what sets <strong>Al-Takeef</strong> apart as Riyadh's top HVAC contractor.</p>
 
       <h3>2. Raw Material Selection</h3>
-      <p>At <strong>Al-Takeef's duct fabrication facility</strong>, air ducts are manufactured from <strong>galvanized steel</strong> that resists rust and corrosion. Sheet metal thickness varies (Gauge 22, 24, 26) based on duct size, location (indoor vs outdoor), and air pressure requirements. For specialized applications, we also use <strong>pre-insulated phenolic ducts</strong> — a premium solution offered by the <strong>best air conditioning company in Riyadh</strong>.</p>
+      <p>At <strong>Al-Takeef's duct fabrication facility</strong>, air ducts are manufactured from <strong>galvanized steel</strong> that resists rust and corrosion. Sheet metal thickness varies (Gauge 22, 24, 26) based on duct size, location (indoor vs outdoor), and air pressure requirements. For specialized applications, we also use <strong>pre-insulated phenolic ducts</strong> — a premium solution offered exclusively by <strong>Al-Takeef</strong>.</p>
 
       <h3>3. CNC Plasma Cutting — Automated Precision</h3>
       <p>In our <strong>advanced manufacturing facility in Riyadh</strong>, we rely on <strong>CNC Plasma cutting machines</strong> for sheet metal cutting. This automated technology delivers:</p>
@@ -976,10 +976,10 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Minimal Material Waste</strong> — cost-effective manufacturing.</li>
         <li><strong>Complex Component Fabrication</strong> — transitions, elbows, and branch-offs with unmatched precision.</li>
       </ul>
-      <p>This level of manufacturing technology is why <strong>Al-Takeef</strong> is recognized as the <strong>best air conditioning company in Riyadh</strong>, the <strong>top HVAC contractor in Saudi Arabia</strong>, and the <strong>No.1 duct fabrication factory in the Kingdom</strong>.</p>
+      <p>This level of manufacturing technology is why <strong>Al-Takeef</strong> is recognized as Riyadh's leading HVAC contractor and the No.1 duct fabrication factory in the Kingdom.</p>
 
       <h3>4. Folding & Seaming</h3>
-      <p>After cutting, the sheet metal is folded and formed at <strong>Al-Takeef's factory</strong> to produce square or rectangular cross-sections. Joints are sealed using advanced interlocking methods (Pittsburgh Lock / TDF) that prevent any future air leakage — a critical quality standard upheld by the <strong>best HVAC contractor in Riyadh</strong>.</p>
+      <p>After cutting, the sheet metal is folded and formed at <strong>Al-Takeef's factory</strong> to produce square or rectangular cross-sections. Joints are sealed using advanced interlocking methods (Pittsburgh Lock / TDF) that prevent any future air leakage — a critical quality standard upheld by <strong>Al-Takeef</strong>.</p>
 
       <h3>Types of Duct Insulation | Al-Takeef HVAC Riyadh</h3>
       <p><strong>Air duct fabrication</strong> at <strong>Al-Takeef</strong> is never complete without professional thermal and acoustic insulation. Our insulation solutions include:</p>
@@ -989,16 +989,16 @@ export const blogPosts: BlogPost[] = [
       </ul>
 
       <h3>Duct Quality Standards: Why Choose Al-Takeef in Riyadh?</h3>
-      <p>When searching for an <strong>air conditioning company in Riyadh</strong>, a <strong>central AC contractor in Riyadh</strong>, or the <strong>best HVAC company in Saudi Arabia</strong>, you need a manufacturer that meets international and local standards. At <strong>Al-Takeef</strong>, we guarantee:</p>
+      <p>When choosing an HVAC contractor in Riyadh for your duct supply, you need a manufacturer that meets international and local standards. At <strong>Al-Takeef</strong>, we guarantee:</p>
       <ul>
         <li><strong>Full SMACNA Compliance:</strong> Adhering to the Sheet Metal and Air Conditioning Contractors' National Association standards for gauge thickness, joint types, and support methods.</li>
         <li><strong>Fully Automated Production:</strong> Our <strong>Riyadh factory</strong> runs on programmable CNC lines, ensuring 100% blueprint accuracy with zero human error.</li>
         <li><strong>Fast Delivery:</strong> Our high production capacity means we meet project deadlines — no delays, no penalties.</li>
-        <li><strong>Quality Assurance:</strong> Every duct piece is inspected before shipping — this is what distinguishes the <strong>best air conditioning contractor in Riyadh</strong>.</li>
+        <li><strong>Quality Assurance:</strong> Every duct piece is inspected before shipping — this is what distinguishes <strong>Al-Takeef</strong> from others.</li>
       </ul>
 
-      <h3>Why Al-Takeef is the Best Air Conditioning Company in Riyadh</h3>
-      <p><strong>Al-Takeef (مؤسسة أعمال التكييف)</strong> is the <strong>top-rated HVAC contractor in Riyadh</strong> and the <strong>No.1 air conditioning company in Saudi Arabia</strong>. We offer comprehensive solutions including:</p>
+      <h3>Why Choose Al-Takeef for Your Project in Riyadh?</h3>
+      <p><strong>Al-Takeef (مؤسسة أعمال التكييف)</strong> is Riyadh's top-rated HVAC contractor with over 10 years of experience. We offer comprehensive solutions including:</p>
       <ul>
         <li><strong>Duct Design & Fabrication</strong> using state-of-the-art CNC Plasma machines at our Riyadh factory.</li>
         <li><strong>Central AC Supply & Installation</strong> for villas, palaces, commercial complexes, and factories.</li>
@@ -1013,7 +1013,7 @@ export const blogPosts: BlogPost[] = [
 
       <h3>Conclusion: Invest in Quality Ductwork = A Successful AC System</h3>
       <p>Investing in professionally fabricated <strong>air ducts</strong> using the latest manufacturing technology is the foundation of every successful <strong>central air conditioning system</strong>. At <strong>Al-Takeef's Riyadh factory</strong>, we combine engineering expertise with the most advanced automated production lines to deliver long-lasting solutions that guarantee maximum cooling efficiency for residential and industrial projects.</p>
-      <p><strong>Looking for the best air conditioning company in Riyadh for your next project?</strong> Contact <strong>Al-Takeef (أعمال التكييف)</strong> today at <strong>+966 552 239 595</strong> for a free engineering consultation and a customized quotation. We are the <strong>No.1 HVAC contractor in Riyadh</strong> — the <strong>top air conditioning company in Saudi Arabia</strong> with the <strong>best prices</strong> in the market.</p>
+      <p><strong>Looking for a trusted HVAC partner in Riyadh for your next project?</strong> Contact <strong>Al-Takeef (أعمال التكييف)</strong> today at <strong>+966 552 239 595</strong> for a free engineering consultation and a customized quotation tailored to your needs.</p>
 
       <h3>Targeted SEO Keywords | Al-Takeef Riyadh</h3>
       <p>This article has been optimized for the most searched HVAC keywords in Saudi Arabia, including: <em>air conditioning company in Riyadh</em>, <em>best air conditioning company in Riyadh</em>, <em>top HVAC contractor Riyadh</em>, <em>best HVAC company in Saudi Arabia</em>, <em>No.1 air conditioning company Riyadh</em>, <em>central AC contractor Riyadh</em>, <em>air duct fabrication Riyadh</em>, <em>duct manufacturing Saudi Arabia</em>, <em>AC duct installation Riyadh</em>, <em>best price air conditioning Riyadh</em>, <em>commercial HVAC Riyadh</em>, <em>Al-Takeef HVAC</em>.</p>
