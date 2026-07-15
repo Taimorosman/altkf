@@ -184,14 +184,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
                   <User className="h-4 w-4 text-[#00E5FF]" />
                   {author}
                 </span>
-                <span className="flex items-center gap-1.5">
-                  <Calendar className="h-4 w-4" />
-                  {date}
-                </span>
-                <span className="flex items-center gap-1.5">
-                  <Clock className="h-4 w-4" />
-                  {readTime}
-                </span>
               </div>
             </div>
 

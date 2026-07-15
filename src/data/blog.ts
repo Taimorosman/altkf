@@ -1062,6 +1062,171 @@ export const blogPosts: BlogPost[] = [
       'VRF installation Riyadh',
       'cheapest air conditioning Riyadh'
     ]
+    ]
+  },
+  {
+    id: 22,
+    slug: 'commercial-vrf-system-installation-riyadh',
+    category: 'commercial',
+    categoryAr: 'تكييف تجاري',
+    categoryEn: 'Commercial',
+    date: '2026-07-03',
+    dateAr: '٣ يوليو ٢٠٢٦',
+    readTimeAr: '٨ دقائق قراءة',
+    readTimeEn: '8 min read',
+    image: '/images/services/vrf-v2.png',
+    authorAr: 'م. فهد العتيبي | مؤسسة أعمال التكييف',
+    authorEn: 'Eng. Fahad Al-Otaibi | Al-Takeef',
+    titleAr: 'دليل تركيب أنظمة تكييف VRF للمباني التجارية بالرياض | أعمال التكييف',
+    titleEn: 'Guide to Commercial VRF AC System Installation in Riyadh | Al-Takeef',
+    summaryAr: 'دليل شامل من مؤسسة أعمال التكييف حول تصميم وتركيب أنظمة التكييف المتغير VRF/VRV في الأبراج والمجمعات التجارية بالرياض، ومزايا كفاءة الطاقة والتحكم الذكي.',
+    summaryEn: 'A comprehensive guide by Al-Takeef on designing and installing Variable Refrigerant Flow (VRF/VRV) systems for commercial towers and complexes in Riyadh, highlighting energy efficiency and smart controls.',
+    contentAr: `
+      <h2>تقنية VRF: الحل الثوري للمنشآت التجارية بالرياض</h2>
+      <p>تشهد مدينة <strong>الرياض</strong> طفرة عمرانية هائلة وتشييد مشاريع تجارية وإدارية ضخمة. تتطلب هذه المباني حلول تكييف مرنة وموفرة للطاقة وقادرة على العمل بكفاءة تحت درجات الحرارة المرتفعة التي تتجاوز 50 درجة مئوية. هنا يأتي دور <strong>أنظمة التكييف المتغير (VRF - Variable Refrigerant Flow)</strong>.</p>
+      <p>في <strong>مؤسسة أعمال التكييف</strong>، بصفتنا الشريك الهندسي المعتمد لتصميم وتركيب أنظمة التكييف المركزي والمتقدم بالرياض، نقدم لكم هذا الدليل المتكامل حول أنظمة VRF وكيف تساهم في نجاح مشاريعكم التجارية.</p>
+
+      <h3>ما هو نظام التكييف VRF وكيف يعمل؟</h3>
+      <p>يعتمد نظام VRF على فكرة التحكم الذكي في تدفق غاز الفريون (التبريد) إلى الوحدات الداخلية المتعددة بناءً على الاحتياج الفعلي لكل مساحة. تتكون المنظومة من وحدة خارجية واحدة ذات قدرة كبيرة متصلة بعدة وحدات داخلية مختلفة الأنواع (كاسيت، مخفي، جداري). يقوم كمبروسر الانفرتر (Inverter Compressor) بتعديل سرعته بدقة متناهية، مما يمنع الهدر التام في الطاقة.</p>
+
+      <h3>مزايا تركيب تكييف VRF مع أعمال التكييف</h3>
+      <ul>
+        <li><strong>توفير هائل في استهلاك الكهرباء:</strong> تقليل الاستهلاك بنسبة تصل إلى 40% مقارنة بالأنظمة التقليدية بفضل تقنية الانفرتر والتحكم الجزئي.</li>
+        <li><strong>التحكم المستقل لكل زاوية:</strong> إمكانية تبريد غرف معينة وإيقاف التكييف في الفراغات غير المستخدمة، وهو ما تبحث عنه إدارة المكاتب والشركات بالرياض.</li>
+        <li><strong>توفير المساحة الخارجية:</strong> بدلاً من تركيب عشرات الوحدات الخارجية فوق الأسطح، يتيح نظام VRF دمجها في وحدات خارجية محدودة ومجمعة.</li>
+        <li><strong>الهدوء والراحة القصوى:</strong> تعمل الوحدات الداخلية بصوت شبه معدوم، مما يوفر بيئة عمل هادئة ومثالية للإنتاجية.</li>
+      </ul>
+
+      <h3>خدمات تصميم وتركيب VRF من أعمال التكييف بالرياض</h3>
+      <p>يتطلب نظام تكييف VRF دقة متناهية في التصميم الهندسي وحساب الأطوال ومسارات النحاس لتفادي أي مشاكل في تدفق الفريون. في <strong>أعمال التكييف</strong>، نضمن لكم توريداً وتركيباً احترافياً بمواصفات مطابقة لأعلى المعايير العالمية مع ضمان الوكيل.</p>
+    `,
+    contentEn: `
+      <h2>VRF Technology: The Ideal Solution for Commercial Buildings in Riyadh</h2>
+      <p>Riyadh is witnessing a massive real estate boom with corporate towers, commercial complexes, and administrative offices rising rapidly. These buildings require flexible, energy-efficient cooling solutions capable of operating reliably in summer heat exceeding 50°C. This is where <strong>Variable Refrigerant Flow (VRF/VRV) systems</strong> come in.</p>
+      <p>At <strong>Al-Takeef</strong>, as a leading HVAC contracting partner in Riyadh, we design and install high-performance VRF systems customized for commercial projects. In this guide, we break down why VRF is the future of commercial cooling.</p>
+
+      <h3>What is VRF Air Conditioning and How Does It Work?</h3>
+      <p>A VRF system regulates the flow of refrigerant to multiple indoor units based on the precise cooling demand of each zone. It consists of a single high-capacity outdoor unit connected to multiple indoor units (cassette, concealed duct, or wall-mounted). Utilizing advanced Inverter Compressor technology, the system adjusts its speed dynamically to eliminate energy waste.</p>
+
+      <h3>Key Advantages of Installing VRF Systems with Al-Takeef</h3>
+      <ul>
+        <li><strong>Substantial Energy Savings:</strong> Cut electricity bills by up to 40% compared to traditional central AC units through smart inverter modulation.</li>
+        <li><strong>Independent Zone Control:</strong> Allow users to set different temperatures for individual rooms or turn off cooling in unoccupied areas.</li>
+        <li><strong>Optimized Outdoor Space:</strong> Consolidate dozens of individual outdoor condensers into a few high-capacity modular units on the roof.</li>
+        <li><strong>Whisper-Quiet Performance:</strong> Minimal noise levels from both indoor and outdoor units create an ideal, distraction-free work environment.</li>
+      </ul>
+
+      <h3>Why Al-Takeef is Your Trusted VRF Partner in Riyadh</h3>
+      <p>VRF systems require specialized engineering calculations, precise piping design, and strict vacuum testing. <strong>Al-Takeef</strong> provides complete turn-key services including heat load calculations, VRF schematic design, copper piping installation, and official agent warranty management.</p>
+    `,
+    keywordsAr: ['أعمال التكييف', 'التكييف', 'تركيب تكييف VRF الرياض', 'تكييف VRV بالرياض', 'مقاول تكييف تجاري', 'أنظمة التكييف المتغير بالرياض', 'مؤسسة أعمال التكييف'],
+    keywordsEn: ['Al-Takeef', 'Al-Takeef HVAC', 'VRF installation Riyadh', 'commercial VRV installation', 'Riyadh HVAC contractor', 'VRF system price Saudi Arabia']
+  },
+  {
+    id: 23,
+    slug: 'energy-saving-ac-tips-riyadh',
+    category: 'saving',
+    categoryAr: 'توفير الطاقة',
+    categoryEn: 'Energy Saving',
+    date: '2026-07-07',
+    dateAr: '٧ يوليو ٢٠٢٦',
+    readTimeAr: '٧ دقائق قراءة',
+    readTimeEn: '7 min read',
+    image: '/images/services/concealed-v2.png',
+    authorAr: 'م. خالد الدوسري | مؤسسة أعمال التكييف',
+    authorEn: 'Eng. Khalid Al-Dossary | Al-Takeef',
+    titleAr: 'طرق توفير الطاقة في التكييف المركزي والمخفي خلال صيف الرياض | أعمال التكييف',
+    titleEn: 'Energy Saving Tips for Central and Concealed AC in Riyadh Summer | Al-Takeef',
+    summaryAr: 'أفضل النصائح والتقنيات الهندسية من مؤسسة أعمال التكييف لتقليل استهلاك فواتير الكهرباء وتوفير الطاقة في أنظمة التكييف المركزي والمخفي بالرياض.',
+    summaryEn: 'Top engineering recommendations from Al-Takeef to reduce electricity consumption and optimize energy efficiency for central and concealed AC systems in Riyadh.',
+    contentAr: `
+      <h2>صيف الرياض الحار وفواتير الكهرباء: كيف نوفر الطاقة؟</h2>
+      <p>مع بداية موسم الصيف وارتفاع درجات الحرارة في <strong>الرياض</strong>، تواجه المكيفات ضغطاً مستمراً للعمل على مدار الساعة، مما يؤدي لارتفاع حاد في فواتير استهلاك الكهرباء. ولكن مع اتخاذ بعض المعايير الهندسية البسيطة والذكية، يمكنك خفض الفاتورة مع الحفاظ على كفاءة تبريد ممتازة.</p>
+      <p>في <strong>مؤسسة أعمال التكييف</strong>، نضع بين أيديكم أهم التوصيات لتوفير الطاقة في التكييف المركزي والمخفي (الكونسيلد):</p>
+
+      <h3>١. ضبط درجة الحرارة المثالية (24°C)</h3>
+      <p>يعد ضبط الثرموستات على درجة حرارة 24 مئوية هي الخطوة الذهبية لتوفير الطاقة. إن ضبط المكيف على 18 أو 16 درجة لا يسرع عملية التبريد بل يجعل الكمبروسر يعمل باستمرار دون توقف، مما يجهد النظام ويضاعف استهلاك الكهرباء.</p>
+
+      <h3>٢. تنظيف الفلاتر ومجاري الهواء بانتظام</h3>
+      <p>تراكم الأتربة والغبار على الفلاتر يعيق تدفق الهواء بشكل طبيعي، مما يضطر المروحة والكمبروسر للعمل بجهد مضاعف لتعويض النقص. ننصح في <strong>أعمال التكييف</strong> بتنظيف الفلاتر شهرياً للحفاظ على تدفق هواء صحي وسلس.</p>
+
+      <h3>٣. عزل الأسقف وتمديدات الدكت</h3>
+      <p>العزل الحراري الجيد لفتحات الدكت والأسقف المستعارة يضمن عدم تسرب الهواء البارد وحمايته من حرارة المبنى الخارجية. استخدام مواد عزل مطابقة للمواصفات السعودية (SASO) يحقق كفاءة تبريد تدوم طويلاً.</p>
+
+      <h3>٤. صيانة الفريون وفحص التسريبات</h3>
+      <p>نقص غاز الفريون بسبب تسريب غير مكتشف يقلل من كفاءة التبريد ويجبر المكيف على العمل لساعات أطول دون جدوى. تواصل مع قسم الصيانة في <strong>أعمال التكييف</strong> لفحص ضغط الفريون السنوي والتأكد من سلامة التمديدات.</p>
+    `,
+    contentEn: `
+      <h2>Surviving Riyadh's Hot Summer While Saving Energy</h2>
+      <p>During the intense summer months in Riyadh, air conditioning systems run continuously, resulting in significant increases in monthly utility bills. However, by adopting smart engineering practices, you can noticeably lower energy consumption without sacrificing indoor cooling comfort.</p>
+      <p>At <strong>Al-Takeef</strong>, we share essential tips for maximizing energy savings in central and concealed duct split AC systems:</p>
+
+      <h3>1. Keep Thermostats Set at 24°C</h3>
+      <p>Setting your thermostat to 24°C (75°F) is the optimal balance for energy conservation. Lowering the setting to 18°C does not cool the room faster; it only forces the compressor to work continuously, wasting energy and causing system wear.</p>
+
+      <h3>2. Keep Air Filters Clean</h3>
+      <p>Dust accumulation blocks normal airflow, causing the indoor fan motor and compressor to work twice as hard. <strong>Al-Takeef</strong> recommends checking and washing return air filters once a month to ensure unobstructed airflow.</p>
+
+      <h3>3. High-Quality Duct and Roof Insulation</h3>
+      <p>Properly insulated ductwork prevents cool air from losing its temperature as it travels through ceiling spaces. Ensuring your insulation matches local construction standards prevents energy loss through the duct sheet metal.</p>
+
+      <h3>4. Perform Preventive Refrigerant Checks</h3>
+      <p>Low refrigerant levels due to minor leaks force the system to run longer cycles to reach the target temperature. Schedule an annual inspection with <strong>Al-Takeef</strong> to check pressure levels and seal any leaks before the heat intensifies.</p>
+    `,
+    keywordsAr: ['أعمال التكييف', 'التكييف', 'توفير الطاقة في التكييف', 'فاتورة الكهرباء الرياض', 'صيانة دكت التكييف', 'مؤسسة أعمال التكييف', 'مكيف كونسيلد موفر للطاقة'],
+    keywordsEn: ['Al-Takeef', 'Al-Takeef HVAC', 'AC energy saving tips Riyadh', 'lower electricity bill AC', 'central AC maintenance Saudi', 'concealed split efficiency']
+  },
+  {
+    id: 24,
+    slug: 'chiller-maintenance-services-riyadh',
+    category: 'maintenance',
+    categoryAr: 'الصيانة الوقائية',
+    categoryEn: 'Preventive Maintenance',
+    date: '2026-07-12',
+    dateAr: '١٢ يوليو ٢٠٢٦',
+    readTimeAr: '٩ دقائق قراءة',
+    readTimeEn: '9 min read',
+    image: '/images/services/chiller-v2.png',
+    authorAr: 'م. أحمد الحربي | مؤسسة أعمال التكييف',
+    authorEn: 'Eng. Ahmed Al-Harbi | Al-Takeef',
+    titleAr: 'صيانة تشيلرات ومبردات المياه للمصانع والمنشآت بالرياض | أعمال التكييف',
+    titleEn: 'Chiller AC Maintenance and Water Cooling Services in Riyadh | Al-Takeef',
+    summaryAr: 'شرح متكامل من مؤسسة أعمال التكييف حول صيانة أنظمة التشيلر (مبردات المياه) ومصانع الأغذية والمستشفيات بالرياض لضمان استمرارية التشغيل.',
+    summaryEn: 'An in-depth guide by Al-Takeef on maintaining water chiller systems, cooling towers, and industrial HVAC plants in Riyadh to ensure operational continuity.',
+    contentAr: `
+      <h2>صيانة التشيلر: حماية استثماراتك الصناعية والتجارية بالرياض</h2>
+      <p>تعتمد المصانع الكبرى، المستشفيات، والمجمعات التجارية في <strong>الرياض</strong> على <strong>أنظمة التشيلر (Chillers)</strong> لتوفير سعات تبريدية ضخمة للمعدات أو الفراغات الواسعة. ونظراً لتعقيد هذه الأنظمة وحجم الاستثمار المالي فيها، فإن الصيانة الوقائية المستمرة هي صمام الأمان لمنع التوقف المفاجئ للعمليات التشغيلية.</p>
+      <p>في <strong>مؤسسة أعمال التكييف</strong>، نتميز بفريق هندسي متخصص في صيانة وإصلاح وعمرة جميع أنواع التشيلرات بمختلف سعاتها.</p>
+
+      <h3>ما تشمله خدمات صيانة التشيلرات مع أعمال التكييف</h3>
+      <ul>
+        <li><strong>فحص دائرة التبريد وضواغط الهواء:</strong> قياس ضغط وسيط التبريد وفحص كفاءة عمل الضواغط والزيت لضمان دورة تبريد مثالية.</li>
+        <li><strong>تنظيف وإزالة ترسبات المكثف والمبخر:</strong> استخدام مواد كيميائية مخصصة لإزالة الأملاح والترسبات الطينية التي تعيق التبادل الحراري.</li>
+        <li><strong>فحص وصيانة مضخات المياه ولوحات التحكم:</strong> التأكد من تدفق المياه الباردة بانتظام ومعايرة أجهزة الحماية الكهربائية والإلكترونية.</li>
+        <li><strong>عقود صيانة سنوية مخصصة:</strong> نوفر عقود صيانة سنوية مرنة للمنشآت تضمن زيارات دورية واستجابة سريعة لحالات الطوارئ.</li>
+      </ul>
+
+      <h3>أهمية الصيانة الدورية للتشيلر</h3>
+      <p>تساهم الصيانة المبرمجة مع <strong>أعمال التكييف بالرياض</strong> في إطالة العمر الافتراضي للمعدات بنسبة 50%، وتقليل هدر الطاقة، وضمان استمرار خطوط الإنتاج والمرافق الحيوية في العمل دون انقطاع.</p>
+    `,
+    contentEn: `
+      <h2>Chiller Maintenance: Protecting Commercial & Industrial Cooling Assets</h2>
+      <p>Large manufacturing plants, medical centers, and massive commercial plazas in Riyadh rely on industrial <strong>chiller units</strong> to deliver massive cooling outputs. Given the scale of these cooling systems and their capital cost, regular preventive maintenance is critical to avoid unscheduled operational downtime.</p>
+      <p>At <strong>Al-Takeef</strong>, our specialized engineering team delivers comprehensive testing, chemical flushing, and mechanical overhauls for scroll, screw, and centrifugal chillers.</p>
+
+      <h3>What Al-Takeef's Chiller Maintenance Program Includes:</h3>
+      <ul>
+        <li><strong>Refrigerant Loop & Compressor Analysis:</strong> Checking oil quality, suction-discharge pressure levels, and electrical draw parameters.</li>
+        <li><strong>Condenser & Evaporator Tube Descaling:</strong> Chemical cleaning and mechanical brushing to remove scale, algae, and sludge that block heat transfer.</li>
+        <li><strong>Water Circulation Pumps & Control Calibration:</strong> Verifying water flow rates, checking expansion tanks, and testing safety switches.</li>
+        <li><strong>Customized Annual AMC Plans:</strong> Offering flexible annual service agreements including scheduled maintenance visits and priority emergency response.</li>
+      </ul>
+
+      <h3>Maximize Equipment Lifespan with Al-Takeef</h3>
+      <p>Partnering with <strong>Al-Takeef</strong> for your industrial HVAC maintenance helps extend chiller runtime by up to 50%, improves thermal heat transfer efficiency, and shields your facility from unexpected cooling failures.</p>
+    `,
+    keywordsAr: ['أعمال التكييف', 'التكييف', 'صيانة تشيلر بالرياض', 'تبريد مياه تشيلر الرياض', 'عقود صيانة تكييف سنوية', 'مقاول تكييف صناعي الرياض', 'مؤسسة أعمال التكييف'],
+    keywordsEn: ['Al-Takeef', 'Al-Takeef HVAC', 'chiller maintenance Riyadh', 'water cooling tower repair Saudi', 'commercial chiller service', 'industrial HVAC contractor Riyadh']
   }
 ];
 

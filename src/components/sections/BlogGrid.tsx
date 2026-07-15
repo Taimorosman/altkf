@@ -126,10 +126,6 @@ export default function BlogGrid({ posts }: BlogGridProps) {
               <span className="bg-[#0B1120] px-3 py-1 rounded-full uppercase tracking-wider text-[10px]">
                 {isRTL ? featuredPost.categoryAr : featuredPost.categoryEn}
               </span>
-              <span className="flex items-center gap-1 text-[#94A3B8]">
-                <Calendar className="h-3.5 w-3.5" />
-                {isRTL ? featuredPost.dateAr : featuredPost.date}
-              </span>
             </div>
 
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-black text-white group-hover:text-[#00E5FF] transition-colors leading-tight">
@@ -194,17 +190,7 @@ export default function BlogGrid({ posts }: BlogGridProps) {
 
                   {/* Content */}
                   <div className="p-6 flex flex-col flex-grow space-y-4">
-                    {/* Meta date / readtime */}
-                    <div className="flex items-center justify-between text-[11px] font-bold text-[#94A3B8]">
-                      <span className="flex items-center gap-1">
-                        <Calendar className="h-3.5 w-3.5" />
-                        {pDate}
-                      </span>
-                      <span className="flex items-center gap-1">
-                        <Clock className="h-3.5 w-3.5" />
-                        {isRTL ? post.readTimeAr : post.readTimeEn}
-                      </span>
-                    </div>
+                    {/* Meta date / readtime removed */}
 
                     {/* Title */}
                     <h3 className="text-base sm:text-lg font-bold text-white leading-snug line-clamp-2 group-hover:text-[#00E5FF] transition-colors">
