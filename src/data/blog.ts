@@ -1060,8 +1060,6 @@ export const blogPosts: BlogPost[] = [
       'central air conditioning Riyadh',
       'concealed duct AC Riyadh',
       'VRF installation Riyadh',
-      'cheapest air conditioning Riyadh'
-    ]
     ]
   },
   {
