@@ -231,7 +231,7 @@ export default async function LocaleLayout({
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-P83P7HJC"
+            src="https://www.googletagmanager.com/ns.html?id=GTM-MQW6ZG6C"
             height="0"
             width="0"
             style={{ display: 'none', visibility: 'hidden' }}
@@ -306,7 +306,7 @@ export default async function LocaleLayout({
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-P83P7HJC');`,
+})(window,document,'script','dataLayer','GTM-MQW6ZG6C');`,
           }}
         />
 
